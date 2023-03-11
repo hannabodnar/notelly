@@ -1,0 +1,11 @@
+{% extends "Notelly/base.html" %}
+
+{% block page_header %}
+	<div class="jumbotron">
+		<h1 class="display-3">Track your Learning.</h1>
+
+		<p class="lead">Designed for note-taking and keeping track of daily activities. Make a list of topics, and add entries at your convenience. Perfect for journaling, academia, and much more!</p>
+
+		<a class="btn btn-lg btn-primary" href="{% url 'users:register' %}" role="button">Register &raquo;</a>
+	</div>
+{% endblock page_header %}
